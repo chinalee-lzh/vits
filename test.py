@@ -2,9 +2,10 @@ import os
 import utils
 
 def main():
-  dirs = os.listdir('wavs_small')
-  for v in dirs:
-    print(v)
-  # utils.load_wav_to_torch
+  utils.load_wav_only('wavs/chapter1_10_mar7th_230.wav')
+  # dirs = os.listdir('wavs')
+  # for v in dirs:
+  #   print('file', v)
+  #   utils.load_wav_only('wavs/'+v)
 
 main()
